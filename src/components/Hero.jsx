@@ -17,7 +17,7 @@ export default function Hero(props){
             </div>
 
             <div className = "progress-bar">
-                <div style = {{width: `${percentage}`}}>
+                <div style={{ width: percentage }}>
                     <div>
                         <i className = "fa-solid fa-baby" />
                         <h6 className = "bar-label">Birth</h6>

@@ -57,13 +57,17 @@ section {
   justify-content: space-between;
   gap: 1rem;
   overflow: hidden;
-  min-width: fit-content;
 }
 
 .progress-bar>div:first-of-type {
-  min-width: fit-content;
   background: var(--color-link);
   color: var(--background-primary);
+  min-width: 0;
+}
+
+.progress-bar>div:last-of-type {
+  min-width: fit-content;
+  flex-shrink: 0;
 }
 
 .progress-bar div div {
